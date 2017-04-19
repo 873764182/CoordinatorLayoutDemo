@@ -67,6 +67,12 @@
             android:onClick="onViewClick"
             android:text="OneTestActivity" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onViewClick"
+            android:text="NestedRefreshActivity" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

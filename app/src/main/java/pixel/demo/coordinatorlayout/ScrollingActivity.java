@@ -16,6 +16,7 @@ import pixel.demo.coordinatorlayout.test.BottomSheetBehaviorActivity;
 import pixel.demo.coordinatorlayout.test.CoorAndDrawerActivity;
 import pixel.demo.coordinatorlayout.test.FloatingActionButtonActivity;
 import pixel.demo.coordinatorlayout.test.MoveViewActivity;
+import pixel.demo.coordinatorlayout.test.NestedRefreshActivity;
 import pixel.demo.coordinatorlayout.test.OneTestActivity;
 import pixel.demo.coordinatorlayout.test.ResumeActivity;
 import pixel.demo.coordinatorlayout.test.SwipeDismissBehaviorActivity;
@@ -97,6 +98,10 @@ public class ScrollingActivity extends AppCompatActivity {
 
         if (button.getText().toString().equalsIgnoreCase("OneTestActivity")) {
             startActivity(new Intent(this, OneTestActivity.class));
+        }
+
+        if (button.getText().toString().equalsIgnoreCase("NestedRefreshActivity")) {
+            startActivity(new Intent(this, NestedRefreshActivity.class));
         }
     }
 }

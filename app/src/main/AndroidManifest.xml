@@ -48,7 +48,8 @@
         <activity
             android:name=".test.OneTestActivity"
             android:label="@string/title_activity_one_test"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".test.NestedRefreshActivity"></activity>
     </application>
 
 </manifest>
