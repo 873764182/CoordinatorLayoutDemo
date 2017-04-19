@@ -1,4 +1,4 @@
-package pixel.demo.coordinatorlayout;
+package pixel.demo.coordinatorlayout.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

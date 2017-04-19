@@ -66,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <pixel.demo.coordinatorlayout.WrapContentHeightViewPager
+                    <pixel.demo.coordinatorlayout.widget.WrapContentHeightViewPager
                         android:id="@+id/viewPager"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />

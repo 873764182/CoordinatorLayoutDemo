@@ -4,14 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--<android.support.v4.widget.SwipeRefreshLayout
+    <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">-->
+        android:layout_height="wrap_content">
 
-        <pixel.demo.coordinatorlayout.widget.CoordinatorListView
-            android:id="@+id/listView"
+        <!--<pixel.demo.coordinatorlayout.widget.WrapperListView
+            android:id="@+id/wrapperListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />-->
+
+        <ListView
+            android:id="@+id/wrapperListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    </android.support.v4.widget.SwipeRefreshLayout>
+
 </LinearLayout>

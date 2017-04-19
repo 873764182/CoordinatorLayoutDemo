@@ -20,6 +20,7 @@ import pixel.demo.coordinatorlayout.test.NestedRefreshActivity;
 import pixel.demo.coordinatorlayout.test.OneTestActivity;
 import pixel.demo.coordinatorlayout.test.ResumeActivity;
 import pixel.demo.coordinatorlayout.test.SwipeDismissBehaviorActivity;
+import pixel.demo.coordinatorlayout.test.TwoTestActivity;
 import pixel.demo.coordinatorlayout.test.ViewOffsetBehaviorActivity;
 
 public class ScrollingActivity extends AppCompatActivity {
@@ -102,6 +103,10 @@ public class ScrollingActivity extends AppCompatActivity {
 
         if (button.getText().toString().equalsIgnoreCase("NestedRefreshActivity")) {
             startActivity(new Intent(this, NestedRefreshActivity.class));
+        }
+
+        if (button.getText().toString().equalsIgnoreCase("TwoTestActivity")) {
+            startActivity(new Intent(this, TwoTestActivity.class));
         }
     }
 }
