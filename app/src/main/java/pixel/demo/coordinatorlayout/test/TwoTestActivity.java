@@ -40,11 +40,11 @@ public class TwoTestActivity extends Activity {
 
             @Override
             public void onScrollChanged(int position, ListView listView, int scrollY) {
-                int hiddenHeight = mHeadLayout.getHeight() - mTabLayout.getHeight();
+                int hiddenHeight = mHeadLayout.getHeight() - mTabLayout.getHeight() - mTitleLayout.getHeight();
                 if (scrollY <= hiddenHeight) {
                     mHeadLayout.setY(-scrollY);
                 } else {
-                    mHeadLayout.setY(-(mHeadLayout.getHeight() - mTabLayout.getHeight()));
+                    mHeadLayout.setY(-hiddenHeight);
                 }
             }
         });
